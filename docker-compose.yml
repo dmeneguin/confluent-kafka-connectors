@@ -11,6 +11,7 @@ services:
     volumes:
       - ./rabbitmq-data:/var/lib/rabbitmq/
       - ./rabbitmq-log:/var/log/rabbitmq
+      - ./rabbitmq-conf:/etc/rabbitmq/conf.d
     # networks:
     #   - demo_net
 
